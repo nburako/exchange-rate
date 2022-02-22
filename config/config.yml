@@ -1,0 +1,6 @@
+mongodb:
+  database: "mongodb://localhost:27017/?connect=direct"
+  db: dev
+  collection: exchange-rate
+externalapi:
+  endpoint: http://api.exchangeratesapi.io/v1/latest?access_key={YOUR-ACCESS-KEY-HERE}
